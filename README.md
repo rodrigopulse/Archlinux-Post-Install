@@ -27,8 +27,6 @@ git clone https://github.com/rodrigopulse/archlinux-post-install.git
 cd arch-post-install
 ```
 
-- **No arquivo setup.sh troque o email e nome do git**
-
 ```bash
 chmod +x setup.sh
 
