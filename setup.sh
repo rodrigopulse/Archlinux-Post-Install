@@ -94,6 +94,10 @@ echo ">>> Configurando Alacritty..."
 mkdir -p ~/.config/alacritty
 cp ./alacritty.toml ~/.config/alacritty/alacritty.toml
 
+echo ">>> Instalando Tmux..."
+sudo pacman -S tmux
+cp ./.tmux.conf ~/
+
 echo ">>> Instalando Docker"
 sudo pacman -S --noconfirm docker docker-compose
 
